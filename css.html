@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trello</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="nav-smenu.css">
+
+
+</head>
+<body>
+<!-- Main Board  -->
+<div class="board">
+    <div class="container">
+        <!--      ToDo      -->
+        <div class="insideContainer">
+            <h1 class="cardHeading">To Do<span><i class="fas fa-ellipsis-h"></i></h1>
+            <div class="main">
+                <div class="addTextArea"> Learn HTML
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <div class="addTextArea"> Learn CSS
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <div class="addTextArea"> Learn JavaScript
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+            </div>
+        </div>
+        <!--       Add     -->
+        <div class="addCard">+ Add another card</div>
+        <!--        Add    -->
+    </div>
+
+    <div class="container doingCard">
+        <!--      Doing      -->
+        <div class="insideContainer">
+            <h1 class="cardHeading">Doing<span><i class="fas fa-ellipsis-h"></i></h1>
+            <div class="main">
+                <div class="addTextArea"> Prepare resume
+                </div>
+                <div class="addFormCard">
+                    <form>
+                            <textarea rows="3" class="inputField"
+                                      placeholder="Enter a title for this card..."></textarea>
+                        <div class="addCardAction">
+                            <button class="btn">Add Card</button><i class="fas fa-times"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--            -->
+    </div>
+
+    <div class="container">
+        <div class="insideContainer">
+            <!--        testing        -->
+            <h1 class="cardHeading">Testing/Verifying
+                <span><i class="fas fa-ellipsis-h"></i>
+            </h1>
+            <!--        testing        -->
+            <div class="main">
+                <!--         Learn           -->
+                <div class="addTextArea"> Twitter app frontend
+                </div>
+                <!--         Learn          -->
+            </div>
+            <div class="addCard">+ Add another card</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="insideContainer">
+            <h1 class="cardHeading">Deploying<span><i class="fas fa-ellipsis-h"></i></h1>
+            <div class="main">
+                <div class="addTextArea"> Twitter app backend
+                </div>
+            </div>
+            <!--        Add card        -->
+            <div class="addCard">+ Add another card</div>
+            <!--    Add card        -->
+        </div>
+
+    </div>
+
+    <div class="container doneCard">
+        <div class="insideContainer">
+            <h1 class="cardHeading">Done<span><i class="fas fa-ellipsis-h"></i></h1>
+            <div class="main">
+
+            </div>
+            <div class="addCard">+ Add card</div>
+        </div>
+    </div>
+
+    <div class="container listCard">
+        <div class="insideContainer">
+            <div class="addCard">+ Add another list</div>
+        </div>
+    </div>
+
+    <div class="container doingCard">
+        <div class="insideContainer">
+            <div class="main">
+                <div class="addFormCard">
+                    <!--enter a title -->
+                    <form>
+                            <textarea rows="3" class="inputField"
+                                      placeholder="Enter list title..."></textarea>
+                        <div class="addCardAction">
+                            <button class="btn">Add List</button><i class="fas fa-times"></i>
+                        </div>
+                    </form>
+                    <!--enter a title-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

@@ -50,7 +50,7 @@ body {
 }
 
 .cardHeading .fa-ellipsis-h:hover{
-    color: rgb(144, 143, 143, 0.9);
+    color: rgba(144, 143, 143, 0.9);
 }
 
 .addTextArea{
